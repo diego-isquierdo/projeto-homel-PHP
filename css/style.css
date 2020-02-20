@@ -1,0 +1,175 @@
+/*base*/
+body{
+	background-color: bisque;
+	height: 70vw;
+}
+
+body p{
+	font-family: 'Solway', serif;
+}
+
+#imagem_principal{
+	margin: 3vw 1vw;
+}
+
+.principal{
+	margin: 0.5vw 0;
+	padding: 0;
+	text-align: center;
+	
+}
+
+.principal-conteudo{
+	width: 50vw;
+	margin: 1vw 25%;
+	padding: 0;
+	border: 0.3vw solid #000000;
+	border-radius: 1.2vw;
+	height: 45.5vw;
+}
+
+.menu{
+	text-align: center;
+	padding: 1vw;
+	position: absolute;
+	font-size: 2vw;
+	left: 0;
+	width: 25%;
+	height: 51vw;
+	top: 1vw;
+	border: 0.3vw solid #000000;
+	border-radius: 1.2vw;
+	background-color: rgb(168, 116, 116);
+}
+
+.menu a{
+	color: black;
+	text-decoration: none;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+}
+
+.menu a:hover{
+	font-size: 1.1em;
+	color: rgb(51, 3, 3);
+}
+
+.rodape{
+	width: 50vw;
+	margin: 1.5vw 25%;
+	border: 0.3vw solid #000000;
+	border-radius: 1.2vw;
+	display: block;	
+}
+
+.rodape-consulta{
+	width: 50vw;
+	margin: 1.5vw 25%;
+	border: 0.3vw solid #000000;
+	border-radius: 1.2vw;
+	position: absolute;
+	top: 46.5vw;
+	left: 0;
+}
+
+.copyright{
+	text-align: center;
+	font-size: 1.5vw;
+	font-weight: bold;
+	width: auto;
+	margin: 0 auto;
+	padding: 1vw 2.5vw;
+}
+
+.botao{
+	width: 20vw;
+	height: 3vw;
+	margin-bottom: 1vw;
+	border-radius: 1vw;
+	background-color: rgb(96, 96, 228);
+	font-size: 2vw;
+	font-weight: bold;
+	box-shadow: 0.4vw 0.4vw 0.2vw #000000;
+	font-family: 'EB Garamond', serif;
+	font-weight: bold;
+}
+
+.botoes{
+	position: relative;
+	bottom: 1vw;	
+}
+
+.botao:hover{
+	background-color: rgb(55, 55, 165);
+	color: white;
+	cursor: pointer;
+}
+
+.botao:active{
+	box-shadow: 0.2vw 0.2vw 0.09vw #000000;
+}
+
+.legenda{
+	font-family: 'Solway', serif;	
+	font-size: 2vw;
+	margin-bottom: 1.5vw;
+	padding: 0;
+	text-align: center;
+}
+
+.legenda-principal{
+	font-family: 'Solway', serif;
+	font-size: 2.5vw;
+	font-weight: bold;
+}
+
+/*cadastra-cliente.php*/
+.dadosEnvio{
+	margin: 0;
+	padding: 1vw;
+	font-size: 1.2vw;
+}
+
+.dadosEnvio input{
+	font-family: 'Solway', serif;
+	margin-bottom: 0.8vw;
+	padding: 1vw;
+	width: 60%;
+	font-family: 'EB Garamond', serif;
+}
+
+.tabela{
+	text-align: center;
+	margin: 9vw auto;
+}
+
+.tabela table{
+	border: 0.3vw solid #000000;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+.tabela tr, .tabela td{
+	border: 0.1vw solid #000000;
+	text-align: center;
+}
+
+.link-consulta{
+	color: rgb(55, 37, 158);
+	text-decoration: none;
+	line-height: 1.1em;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+	margin: auto;
+}
+
+.link-consulta:hover{
+	color: rgb(85, 85, 194);
+	text-decoration: none;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
